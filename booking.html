@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="booking.css" />
+  </head>
+  <body>
+    <div>
+      <nav>
+        <ul>
+          <div class="logo list-items">
+            <li>
+              <img src="images/travel-high-resolution-logo-transparent.png" />
+            </li>
+          </div>
+          <div class="center-list list-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="heritage.html">heritage</a></li>
+            <li><a href="booking.html">Hotel Booking</a></li>
+          </div>
+          <div class="nav-right list-items">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contuct Us</a></li>
+          </div>
+        </ul>
+      </nav>
+    </div>
+    <div class="booking-contain">
+      <div class="booking-form">
+        <h2>Make a Reservation</h2>
+        <form>
+          <label>Name:</label>
+          <input type="text" name="name" required />
+
+          <label>Email:</label>
+          <input type="email" name="email" required />
+
+          <label>Check-in Date:</label>
+          <input type="date" name="check-in-date" required />
+
+          <label>Check-out Date:</label>
+          <input type="date" name="check-out-date" required />
+
+          <label>Number of Guests:</label>
+          <input type="number" name="num-guests" required />
+
+          <label>Room Type:</label>
+          <select name="room-type">
+            <option value="single">Single</option>
+            <option value="double">Double</option>
+            <option value="suite">Suite</option>
+          </select>
+
+          <button type="submit" class="btn">Book Now</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
