@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  background-image: url(images/home.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.card {
+  background-color: #ddd;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.left {
+  width: 30vw;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.left img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.right .contact {
+  display: flex;
+  gap: 1rem;
+  margin-right: 1rem;
+}
+
+.form,
+.address {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0 0;
+}
+
+.form input,
+textarea {
+  width: 100%;
+  outline: none;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #000;
+  padding: 10px 0;
+  margin: 5px 0;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+h4 {
+  margin-bottom: 5px;
+}

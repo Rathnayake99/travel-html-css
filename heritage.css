@@ -5,18 +5,25 @@
   margin: 10px 10px;
   display: inline-block;
   background-color: white;
+  border-radius: 12px;
 }
-
+a img {
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  height: 175px;
+  object-fit: cover;
+}
 .card:hover {
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
 .container4 {
-  padding: 2px 16px;
+  padding: 0px 5px;
   color: black;
+  height: 65px;
 }
 .card-list {
-  margin-top: 10px;
+  margin-top: 25px;
   text-align: center;
 }
 body {
@@ -24,4 +31,10 @@ body {
   background-image: url(images/home.jpg);
   background-position: center;
   background-size: cover;
+}
+.h-list-top,
+.h-list-botum {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
